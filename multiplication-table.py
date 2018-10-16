@@ -19,11 +19,7 @@ Height of multiplication table: 8
 """
 width = int(input("Width of multiplication table: "))
 height=int(input("Height of multiplication table: "))
-widthlist=['x']*width
-heightlist=['x']*height
 
-"""
-for i in widthlist:
-    for i in heightlist:
-        print(i*i)
-"""
+
+for row in range(1,height+1):
+    print(*("{:3}".format(row*col) for col in range(1, width+1)))
