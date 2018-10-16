@@ -1,7 +1,7 @@
 """
 multiplication-table.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Jordan
+Credit: some stack overflow user
 Assignment:
 Write and submit a Python program that prints a multiplication table. The user 
 must be prompted to give the width and height of the table before it is printed.
